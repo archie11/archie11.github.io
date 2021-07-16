@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "raffy.buccat" && password === "webdev11") {
         alert("You have successfully logged in.");
         location.replace("https://archie11.github.io/viewland");
     } else {
