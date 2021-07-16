@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "web_dev") {
         alert("You have successfully logged in.");
-        location.replace("https://gogoanime.lol/popular.html?page=3");
+        location.replace("https://archie11.github.io/viewland");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
